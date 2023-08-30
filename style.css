@@ -1,0 +1,157 @@
+/*$charcoal: #2d4252;
+$mikado-yellow: #fdc701;
+$engineering-orange: #c60512;
+$golden-brown: #896c19;
+$smoky-black: #150c05;*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, a {
+    font-family: 'PT Serif', serif;
+}
+h1 {
+    padding: 10px 0px;
+    font-size: 250%;
+}
+h1, h2 {
+    color: #fdc701;
+}
+nav {
+    justify-content: space-between;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+}
+nav ul {
+    display: flex;
+    margin-right: 15px;
+}
+nav a {
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 200%;
+}
+nav img {
+    width: 10%;
+}
+nav a:hover {
+    background-color: #150c05;
+    color: #fdc701;
+}
+ #hero {
+    width: 100%;
+} 
+.container img {
+    width: 50%;
+    margin: 10px 0px;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.text {
+    margin: 0px 50px;
+    width: 50%;
+}
+p {
+    color: #ffffff;
+    padding: 5px 0px;
+    font-size: 135%;
+}
+#top {
+    padding-top: 5px;
+}
+.one {
+    background-color: #896c19;
+}
+.two {
+    background-color: #150c05;
+}
+.three {
+    background-color: #2d4252;
+}
+.video {
+    position: relative; 
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.video iframe {
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    position:absolute;
+}
+nav, footer {
+background-color: #c60512;
+}
+footer p{
+    padding-left: 5%;
+    font-size: 90%;
+}
+.bottom {
+    display: flex;
+    align-items: center;
+}
+footer a {
+    font-size: 90%;
+}
+.hero-c {
+    background: url(cast.webp) center center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movies {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3%;
+}
+.movies img {
+    width: 15%;
+    border: none;
+}
+h2 {
+    padding: 0px 2.5% 15px;
+}
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 5%;
+}
+footer ul {
+    list-style: none;
+}
+#subtitle {
+    text-align: center;
+    font-size: 125%;
+}
+#footer-text {
+    width: 85%;
+}
+#refernces {
+    padding-bottom: 3%;
+}
+a {
+    color: white;
+    font-size: 80%;
+}
+.hero-m {
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.501)), url(blancs-dounut-hole.avif);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
